@@ -1,0 +1,113 @@
+.container{
+  width: 960px;
+  margin: 0 auto;
+}
+
+header img{
+  float:left;
+}
+
+header ul{
+  list-style-type:none;
+  float:left;
+  margin-top:1.5em;
+  margin-left:2em
+}
+
+header li{
+  margin:1.5em 1.5em 1.5em 2em;
+  float:left;
+}
+header div{
+  color :grey;
+  float:right;
+  margin-top:2.5em;
+}
+
+
+
+.eye{
+  background: url('../images/phone.png') no-repeat 150px center;
+  height:550px;
+  padding-left:550px;
+  padding-top: 200px;
+}
+.eye h1{
+  padding-top:0px;
+  font-size:40px;
+}
+
+.eye ul{
+  list-style-type:none;
+  padding :0;
+}
+
+.eye .price{
+  font-size:24px;
+}
+
+.eye button{
+  border:0;
+  border-radius: 500px;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff7400), color-stop(100%,#ff7400)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #ff7400 0%,#ff7400 100%); /* Chrome10+,Safari5.1+ */
+  /* width:100px; */
+  padding:0.3em 2em;
+  color:#fff;
+}
+
+.part3 .left{
+  float:left;
+}
+
+.part3 h2{
+  font-size: 40px;
+  width: 40px;
+  margin-right: 20px;
+  border: 3px double #ccc;
+  padding: 0.9em 0.3em;
+  line-height: 1.2;
+  margin-top: 0;
+  margin-left: 30px;
+}
+
+.part3 ul{
+  margin-top: 0;
+  margin-right: 12px;
+  list-style-type: none;
+  padding-left: 0;
+}
+.part3 li figure{
+  border-top: 0;
+}
+
+.part3 li:first-child figure{
+  border-top: 1px solid #999;
+}
+
+.part3 figure{
+  /*padding: 0.5em;*/
+  margin: 0;
+  text-align: center;
+  color: #666;
+  font-size: 13px;
+  border: 1px solid #999;
+  padding: 10px;
+}
+
+.part3 p{
+  clear: left;
+  text-align: center;
+  padding-top: 12px;
+  color: #999999;
+}
+.part3 .stander{
+  font-weight: bold;
+  color: #000000;
+}
+.part3 figure.left img{
+  padding: 25px 25px 0px 25px;
+}
+.part3 figure.left figcaption{
+  margin-bottom: 15px;
+}
