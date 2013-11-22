@@ -38,6 +38,7 @@ startButton.click(function(){
 
   // 1. 讓使用者登入此 Facebook App (FB.login)
    FB.login(function(resp) {
+    console.log(resp);
    // handle the response
  }, {scope: 'email,user_likes'});
   // Logged in.
