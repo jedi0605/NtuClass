@@ -37,6 +37,9 @@ startButton.click(function(){
   $('.hw4-complete').remove(); // 移除「掃描完成」
 
   // 1. 讓使用者登入此 Facebook App (FB.login)
+   FB.login(function(response) {
+   // handle the response
+ }, {scope: 'email,user_likes'});
   // Logged in.
   // 2. 以 FB.api 拿到使用者的 group 列表
   // 拿到使用者 group 列表的 response 之後：
