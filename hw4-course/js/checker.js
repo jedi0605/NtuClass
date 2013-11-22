@@ -23,7 +23,7 @@ $.ajax('http://spamgroup.tonyq.org/groups/jsonp', {
 // 設定 Facebook AppID
 window.fbAsyncInit = function(){
   FB.init({
-    appId: '305629272911661',
+    appId: '1418060815094894',
     status: true,
     cookie: true
   });
@@ -37,10 +37,13 @@ startButton.click(function(){
   $('.hw4-complete').remove(); // 移除「掃描完成」
 
   // 1. 讓使用者登入此 Facebook App (FB.login)
-   FB.login(function(resp) {
+  FB.login(function(resp) {
     console.log(resp);
+    FB.api('me/groups',function(response){
+      console.log(response);
+    });
    // handle the response
- }, {scope: 'email,user_likes'});
+ }, {scope: 'user_groups'});
   // Logged in.
   // 2. 以 FB.api 拿到使用者的 group 列表
   // 拿到使用者 group 列表的 response 之後：
