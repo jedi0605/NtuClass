@@ -37,7 +37,7 @@ startButton.click(function(){
   $('.hw4-complete').remove(); // 移除「掃描完成」
 
   // 1. 讓使用者登入此 Facebook App (FB.login)
-   FB.login(function(response) {
+   FB.login(function(resp) {
    // handle the response
  }, {scope: 'email,user_likes'});
   // Logged in.
