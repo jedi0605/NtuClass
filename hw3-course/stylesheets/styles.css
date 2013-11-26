@@ -2434,9 +2434,9 @@ textarea.input-sm, .input-group-sm > textarea.form-control,
 .input-lg, .input-group-lg > .form-control,
 .input-group-lg > .input-group-addon,
 .input-group-lg > .input-group-btn > .btn {
-  height: 47px;
+  height: 41px;
   padding: 10px 16px;
-  font-size: 19px;
+  font-size: 15px;
   line-height: 1.33;
   border-radius: 0;
 }
@@ -2445,8 +2445,8 @@ textarea.input-sm, .input-group-sm > textarea.form-control,
 select.input-lg, .input-group-lg > select.form-control,
 .input-group-lg > select.input-group-addon,
 .input-group-lg > .input-group-btn > select.btn {
-  height: 47px;
-  line-height: 47px;
+  height: 41px;
+  line-height: 41px;
 }
 
 /* line 858, ../../../../../../usr/local/Cellar/ruby/2.0.0-p247/lib/ruby/gems/2.0.0/gems/bootstrap-sass-3.0.2.1/vendor/assets/stylesheets/bootstrap/_mixins.scss */
@@ -2892,7 +2892,7 @@ textarea.input-lg, .input-group-lg > textarea.form-control,
 /* line 122, ../../../../../../usr/local/Cellar/ruby/2.0.0-p247/lib/ruby/gems/2.0.0/gems/bootstrap-sass-3.0.2.1/vendor/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-lg, .btn-group-lg > .btn {
   padding: 10px 16px;
-  font-size: 19px;
+  font-size: 15px;
   line-height: 1.33;
   border-radius: 0;
 }
@@ -4457,7 +4457,7 @@ input[type="button"].btn-block {
 .input-group-lg > .input-group-addon,
 .input-group-lg > .input-group-btn > .input-group-addon.btn {
   padding: 10px 16px;
-  font-size: 19px;
+  font-size: 15px;
   border-radius: 0;
 }
 /* line 84, ../../../../../../usr/local/Cellar/ruby/2.0.0-p247/lib/ruby/gems/2.0.0/gems/bootstrap-sass-3.0.2.1/vendor/assets/stylesheets/bootstrap/_input-groups.scss */
@@ -4902,7 +4902,7 @@ input[type="button"].btn-block {
 .navbar-brand {
   float: left;
   padding: 11px 15px;
-  font-size: 19px;
+  font-size: 15px;
   line-height: 28px;
 }
 /* line 159, ../../../../../../usr/local/Cellar/ruby/2.0.0-p247/lib/ruby/gems/2.0.0/gems/bootstrap-sass-3.0.2.1/vendor/assets/stylesheets/bootstrap/_navbar.scss */
@@ -5387,7 +5387,7 @@ input[type="button"].btn-block {
 .pagination-lg > li > a,
 .pagination-lg > li > span {
   padding: 10px 16px;
-  font-size: 19px;
+  font-size: 15px;
 }
 /* line 521, ../../../../../../usr/local/Cellar/ruby/2.0.0-p247/lib/ruby/gems/2.0.0/gems/bootstrap-sass-3.0.2.1/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 .pagination-lg > li:first-child > a,
